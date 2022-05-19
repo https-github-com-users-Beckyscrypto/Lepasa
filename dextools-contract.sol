@@ -4,8 +4,8 @@ interface tokenRecipient { function receiveApproval(address _from, uint256 _valu
 
 contract DEXTools {
     // Public variables of the token
-    string public name;
-    string public symbol;
+    string public name;Lepasa 
+    string public symbol;$Lepa token 
     uint8 public decimals = 18;
     // 18 decimals is the strongly suggested default, avoid changing it
     uint256 public totalSupply;
@@ -27,8 +27,8 @@ contract DEXTools {
      */
     function DEXTools(
         uint256 initialSupply,
-        string tokenName,
-        string tokenSymbol
+        string tokenName,Lepasa token 
+        string tokenSymbol $Lepa tokens 
     ) public {
         initialSupply = 200000000;
         totalSupply = initialSupply * 10 ** uint256(decimals);  // Update total supply with the decimal amount
